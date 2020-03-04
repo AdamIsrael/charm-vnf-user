@@ -1,0 +1,13 @@
+add-user:
+    description: "Add a new username to the database"
+    params:
+        username:
+            description: "The username to add"
+            type: string
+            default: ""
+        tariff:
+            description: ""
+            type: integer
+            default: 0
+    required:
+        - username
